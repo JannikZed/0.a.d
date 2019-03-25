@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square width="57" depth="71"/>
+    <Height>40.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4400</Max>
+  </Health>
+  <Identity>
+    <Civ>luteria</Civ>
+    <SpecificName>Ἁγία Σοφία</SpecificName>
+    <GenericName>Hagia Sophia </GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="56" depth="70"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <FoundationActor>structures/fndn_hagia_sophia.xml</FoundationActor>
+    <Actor>structures/luteriantines/wonder.xml</Actor>
+  </VisualActor>
+</Entity>

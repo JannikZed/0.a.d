@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="33.0" depth="33.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>luteria</Civ>
+    <SpecificName>Teíkhisma</SpecificName>
+    <Tooltip>Build siege engines. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="31.0" depth="31.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_cavalry_spearman
+      units/{civ}_champion_cavalry_swordsman
+      units/{civ}_champion_infantry_swordsman
+      units/{civ}_mechanical_siege_traction_trebuchet_packed
+    </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+      siege_bolt_accuracy
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/luteriantines/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.0</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

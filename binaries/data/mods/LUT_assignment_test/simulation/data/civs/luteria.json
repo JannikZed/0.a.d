@@ -1,0 +1,134 @@
+{
+	"Code": "luteria",
+	"Culture": "luteria",
+	"Name": "luteriantines",
+	"Emblem": "session/portraits/emblems/emblem_luteriantines.png",
+	"History": "The Eastern Suomi Empire.",
+	"Music":[
+			{"File":"Juno_Protect_You.ogg", "Type":"peace"},
+			{"File":"Mediterranean_Waves.ogg", "Type":"peace"},
+			{"File":"Elysian_Fields.ogg", "Type":"peace"},
+			{"File":"The_Governor.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "luteriantines",
+			"Description": "Luterianties is a very young but ambitious nation. It raised from the desire of LUT students to protect themselves against the Greek nation. Greeks were always jealous of the Luterianties great thinkers and young philosophers. Luterianties knows that so they will always be protecting their young students.",
+			"Technologies":
+			[
+				{
+					"Name": "N/A",
+					"History": "N/A",
+					"Description": "N/A" 
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "TBD",
+					"Class": "?",
+					"Armament": "?",
+					"Emblem": "",
+					"History": "?"
+				},
+				{
+					"Name": "TBD2",
+					"Class": "?",
+					"Armament": "?",
+					"Emblem": "",
+					"History": "?" 
+				},
+				{
+					"Name": "TDB3",
+					"Class": "?",
+					"Armament": "?",
+					"Emblem": "",
+					"History": "?"					
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "TBD",
+			"History": "N/A",
+			"Description": "?" 
+		},
+		{
+			"Name": "TBD2",
+			"History": "N/A",
+			"Description": "?" 
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/luteria_wallset_stone",
+		"structures/luteria_wallset_short"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/luteria_civil_centre" 
+		},
+		{
+			"Template": "units/luteria_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/luteria_infantry_javelinist_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/luteria_infantry_spearman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/luteria_cavalry_javelinist_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"Ioustinianós",
+		"Kōnstantînos",
+		"Leōn",
+		"Nikēphoros",
+		"Michaēl",
+		"Basíleios",
+		"Alexandros",
+		"Rōmanos",
+		"Iōánnēs",
+		"Komnēnos",
+		"Manouēl",
+		"Alexios",
+		"Iraklios",
+		"Isaakios"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/luteria_infantry_javelinist_b",
+		"skirmish/structures/default_house_10" : "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
